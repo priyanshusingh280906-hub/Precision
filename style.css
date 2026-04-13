@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.topnavbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.nav-container1{
+    font-size: 20px;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0F172A;
+}
+
+.nav-container2{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: inter, sans-serif;
+    font-weight: 400;
+}
+
+.nav-container2 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #475569;
+}
+
+.nav-button{
+    padding: 15px 25px;
+    background: linear-gradient(to right, #003EC7, #0052FF);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: manrope, sans-serif;
+    cursor: pointer;
+}
