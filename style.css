@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* navbar */
-.topnavbar{
+.topnavbar {
     width: 100%;
     height: auto;
     display: flex;
@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-.nav-container1{
+.nav-container1 {
     font-size: 20px;
     font-family: Manrope, sans-serif;
     font-weight: 700;
@@ -22,7 +22,7 @@
     color: #0F172A;
 }
 
-.nav-container2{
+.nav-container2 {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -31,13 +31,13 @@
     font-weight: 400;
 }
 
-.nav-container2 a{
+.nav-container2 a {
     font-size: 16px;
     text-decoration: none;
     color: #475569;
 }
 
-.nav-button{
+.nav-button {
     padding: 15px 25px;
     background: linear-gradient(to right, #003EC7, #0052FF);
     color: white;
@@ -52,7 +52,7 @@
 /* MAIN */
 /* MAIN CONTAINER1 */
 
-.main-container1{
+.main-container1 {
     width: 100%;
     height: auto;
     display: flex;
@@ -63,14 +63,14 @@
 }
 
 /* MAIN CONTAINER1-1 */
-.main-container1-1{
+.main-container1-1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 50%;
 }
 
-.container1-1-subtopic1{
+.container1-1-subtopic1 {
     font-size: 12px;
     font-weight: 700;
     font-family: inter, sans-serif;
@@ -81,7 +81,7 @@
     width: fit-content;
 }
 
-.container1-1-subtopic2{
+.container1-1-subtopic2 {
     font-size: 96px;
     font-weight: 400;
     font-family: manrope, sans-serif;
@@ -89,7 +89,7 @@
     line-height: 1.2;
 }
 
-.container1-1-subtopic2 > p{
+.container1-1-subtopic2>p {
     font-size: 96px;
     font-weight: 400;
     font-family: inter, sans-serif;
@@ -98,7 +98,7 @@
     word-spacing: 100px;
 }
 
-.container1-1-subtopic3{
+.container1-1-subtopic3 {
     font-size: 20px;
     font-weight: 400;
     font-family: inter, sans-serif;
@@ -107,13 +107,13 @@
     line-height: 28px;
 }
 
-.container1-1-subtopic4{
+.container1-1-subtopic4 {
     display: flex;
     gap: 15px;
     margin-top: 10px;
 }
 
-.container1-1-button1{
+.container1-1-button1 {
     padding: 16px 32px;
     background: linear-gradient(to right, #003EC7, #0052FF);
     color: white;
@@ -125,7 +125,7 @@
     cursor: pointer;
 }
 
-.container1-1-button2{
+.container1-1-button2 {
     padding: 16px 32px;
     background-color: #E2E7FF;
     color: #003EC7;
@@ -137,12 +137,12 @@
 }
 
 /* MAIN CONTAINER1-2 */
-.main-container1-2{
+.main-container1-2 {
     width: 50%;
     display: grid;
 }
 
-.main-container1-2 > img{
+.main-container1-2>img {
     grid-area: 1 / 1;
     width: 100%;
     max-width: 576px;
@@ -151,19 +151,19 @@
     object-fit: cover;
 }
 
-.container1-2-image1{
+.container1-2-image1 {
     z-index: 2;
     transform: rotate(-2deg);
 }
 
-.container1-2-image2{
+.container1-2-image2 {
     z-index: 1;
     transform: translateX(50px) rotate(3deg);
     opacity: 0.4;
 }
 
 /* MAIN CONTAINER2 */
-.main-container2{
+.main-container2 {
     margin: 128px 42px;
     box-sizing: border-box;
     display: flex;
@@ -173,20 +173,20 @@
 
 /* MAIN CONTAINER2-1 */
 
-.main-container2-1{
+.main-container2-1 {
     display: flex;
     justify-content: space-between;
     align-items: end;
 
 }
 
-.main-container2-1-1{
+.main-container2-1-1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.main-container2-1-1-subtopic1{
+.main-container2-1-1-subtopic1 {
     font-size: 12px;
     font-weight: 400;
     font-family: inter, sans-serif;
@@ -194,17 +194,17 @@
     width: fit-content;
 }
 
-.main-container2-1-1-subtopic2{
+.main-container2-1-1-subtopic2 {
     font-size: 48px;
     font-weight: 500;
     font-family: manrope, sans-serif;
     color: #131B2E;
 }
 
-.main-container2-1-2{
-    width : 290px;
+.main-container2-1-2 {
+    width: 290px;
     font-size: 14px;
-    font-weight: 400;   
+    font-weight: 400;
     font-family: inter, sans-serif;
     color: #434656;
 
@@ -212,88 +212,226 @@
 
 /* MAIN CONTAINER2-2 */
 
-.main-container2-2{
+.main-container2-2 {
     display: flex;
     justify-content: space-evenly;
-    gap:32px;
+    gap: 32px;
 
 }
 
-.main-container2-2-column1{
+.main-container2-2-column1 {
     padding-bottom: 25.25px;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.main-container2-2-column1-1{
+.main-container2-2-column1-1 {
     display: flex;
     flex-direction: column;
     gap: 14.8px;
     background-color: #F2F3FF;
     padding: 40px;
+    border-radius: 5px;
 }
 
-.main-container2-2-column1-2{
+.main-container2-2-column1-2 {
     display: flex;
     flex-direction: column;
     gap: 14.8px;
     background-color: #F2F3FF;
     padding: 40px;
+    border-radius: 5px;
 }
 
-.main-container2-2-column2{
+.main-container2-2-column2 {
     padding-top: 48px;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.main-container2-2-column2-1{
+.main-container2-2-column2-1 {
     display: flex;
     flex-direction: column;
     gap: 14.8px;
     background-color: #F2F3FF;
     padding: 40px;
+    border-radius: 5px;
 }
 
-.main-container2-2-column2-2{
+.main-container2-2-column2-2 {
     display: flex;
     flex-direction: column;
     gap: 14.8px;
     background-color: #F2F3FF;
     padding: 40px;
+    border-radius: 5px;
 }
 
-.main-container2-2-column3{
+.main-container2-2-column3 {
     display: flex;
     flex-direction: column;
     background: #F2F3FF;
     padding: 170.75px 40px;
     gap: 20px;
+    border-radius: 5px;
 }
 
-.container2-2-icon{
-
+.container2-2-icon {
+    width: 24px;
 }
 
-.container2-2-heading{
+.container2-2-heading {
     font-size: 24px;
     font-weight: 400;
     font-family: manrope, sans-serif;
 }
 
-.container2-2-description{
+.container2-2-description {
     font-size: 14px;
     font-weight: 400;
     font-family: inter, sans-serif;
     color: #434656;
 }
 
-.container2-2-link{
+.container2-2-link {
     padding-top: 20px;
     font-size: 16px;
     font-weight: 400;
+    font-family: inter, sans-serif;
+    color: #005A3C;
+}
+
+/* MAIN CONTAINER3 */
+
+.main-container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 128px 52px;
+    background-color: #FAF8FF;
+}
+
+/* MAIN CONTAINER3-1 */
+
+.main-container3-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container3-1-divider {
+    background: #C3C5D933;
+    height: 1px;
+}
+
+.main-container3-1-subtopic1 {
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: inter, sans-serif;
+    letter-spacing: 2.4px;
+    color: #737688;
+
+}
+
+/* MAIN CONTAINER3-2 */
+
+.main-container3-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container3-2-subtopic1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.container3-2-subtopic1-1 > img{
+    height: 700px;
+    width: 556px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container3-2-subtopic1-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.con3-2-subtopic1-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.con3-2-subtopic1-2-1-1 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: manrope, sans-serif;
+    color: #131B2E;
+}
+
+.con3-2-subtopic1-2-1-2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: inter, sans-serif;
+    color: #434656;
+}
+
+.con3-2-subtopic1-2-2 {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: inter, sans-serif;
+    color: #005A3C;
+
+}
+
+/* subtopic2 */
+
+.main-container3-2-subtopic2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 96px;
+}
+
+.container3-2-subtopic2-1 > img{
+    height: 700px;
+    width: 556px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container3-2-subtopic2-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.con3-2-subtopic2-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.con3-2-subtopic2-2-1-1 {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: manrope, sans-serif;
+    color: #131B2E;
+}
+
+.con3-2-subtopic2-2-1-2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: inter, sans-serif;
+    color: #434656;
+}
+
+.con3-2-subtopic2-2-2 {
+    font-size: 12px;
+    font-weight: 700;
     font-family: inter, sans-serif;
     color: #005A3C;
 
