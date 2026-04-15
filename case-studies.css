@@ -449,3 +449,44 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 32px;
+}
+
+.footer1{
+    font-size: 18px;
+    font-family: manrope, sans-serif;
+    font-weight: 900;
+    color: #0F172A;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.footer2 > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #64748B;
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: inter, sans-serif;
+}
+
+.footer3{
+    font-size: 14px;
+    font-family: inter, sans-serif;
+    font-weight: 400;
+    color: #64748B;
+}
+
+#footer-opened-page{
+    color: #2563EB
+    
+}
