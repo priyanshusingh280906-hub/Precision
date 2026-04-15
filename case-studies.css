@@ -61,3 +61,50 @@
     font-family: manrope, sans-serif;
     cursor: pointer;
 }
+
+/* main */
+
+/* hero */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    max-width: 768px;
+}
+
+.hero-portfolio{
+    font-size: 12px;
+    font-weight: 400;
+    color: #005A3C;
+    font-family: inter, sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+}
+
+.hero-heading{
+    font-size: 72px;
+    font-weight: 300;
+    color: #131B2E;
+    font-family: manrope, sans-serif;
+    letter-spacing: -3.6px;
+    line-height: 82px;
+    max-width: 600px;
+}
+
+.hero-heading  .authority{
+    color: #003EC7;
+    line-height: 100%;
+}
+
+.hero-description{
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #434656;
+    font-family: inter, sans-serif;
+    line-height: 32.5px;
+}
