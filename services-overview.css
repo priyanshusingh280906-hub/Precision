@@ -76,6 +76,7 @@
     padding-top: 32px;
     padding-left: 32px;
     padding-right: 32px;
+    padding-bottom: 96px;
 }
 
 /* hero */
@@ -525,4 +526,73 @@
     padding: 14px 15px;
     background-color: #E2E7FF;
     border-radius: 12px;
+}
+
+/* cta */
+.cta{
+    padding: 128px;
+    border-radius: 8px;
+    background-color: #E2E7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.cta-head{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: manrope, sans-serif;
+    color: #131B2E;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+}
+
+.precision{
+    color: #0145d7;
+    letter-spacing: 0px;
+}
+
+.cta-des{
+    font-size: 18px;
+    font-weight: 350;
+    font-family: inter, sans-serif;
+    color: #434656;
+    line-height: 28px;
+}
+
+.cta-box{
+    display: flex;
+    gap: 24px;
+    padding-top: 16px;
+}
+
+.cta-box1{
+    font-size: 18px;
+    font-weight: 650;
+    font-family: inter, sans-serif;
+    color: #ffffff;
+    line-height: 28px;
+    padding: 16px 40px;
+    border-radius: 4px;
+    background-color: #003EC7;
+}
+
+.cta-box2{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.cta-box2-d{
+    font-size: 18px;
+    font-weight: 650;
+    font-family: inter, sans-serif;
+    color: #005A3C;
+    line-height: 28px;
+}
+
+.cta-box2-divider{
+    width: 32px;
+    height: 2px;
 }
