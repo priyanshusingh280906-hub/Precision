@@ -199,3 +199,79 @@
     border-radius: 5px;
 }
 
+/* pg-sec2 */
+
+.pg-sec2{
+    display: flex;
+    gap: 64px;
+}
+
+.pg-sec2-img{
+    height: 350px;
+    width: 1250px;
+    object-fit: cover;
+    object-position: center;
+    padding-top: 48px;
+}
+
+.pg-sec2-box{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pg-sec2-box1{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: inter, sans-serif;
+    color: #C3C5D9;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+}
+
+.pg-sec2-box2{
+    font-size: 36px;
+    font-weight: 300;
+    font-family: manrope, sans-serif;
+    color: #131B2E;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+}
+
+.pg-sec2-box3{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: inter, sans-serif;
+    color: #434656;
+    line-height: 32.5px;
+    width: 85%;
+}
+
+.pg-sec2-box4{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.pg-sec2-box4-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.pg-sec2-box4-heading{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: inter, sans-serif;
+    color: #003EC7;
+    line-height: 24px;
+}
+
+.pg-sec2-box4-description{
+    ont-size: 14px;
+    font-weight: 300;
+    font-family: inter, sans-serif;
+    color: #434656;
+    line-height: 20px;
+}
