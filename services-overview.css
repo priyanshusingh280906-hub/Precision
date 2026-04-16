@@ -596,3 +596,54 @@
     width: 32px;
     height: 2px;
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 32px;
+    background-color: #F8FAFC;
+    border: 1px #E2E8F033;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer1-heading{
+    font-size: 18px;
+    font-family: manrope, sans-serif;
+    font-weight: 900;
+    color: #0F172A;
+}
+
+.footer1-description{
+    font-size: 14px;
+    font-family: inter, sans-serif;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.footer2 > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #64748B;
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: inter, sans-serif;
+}
+
+#footer-opened-page{
+    color: #2563EB
+    
+}
