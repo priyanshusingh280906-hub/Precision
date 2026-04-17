@@ -357,6 +357,8 @@ button {
 /* main-map */
 .main-map{
     background-color: #D2D9F4;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .main-map1{
@@ -399,4 +401,40 @@ button {
     line-height: 24px;
     text-align: center;
     padding-right: 16px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 32px;
+}
+
+.footer1{
+    font-size: 18px;
+    font-family: manrope, sans-serif;
+    font-weight: 900;
+    color: #0F172A;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.footer2 > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #64748B;
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: inter, sans-serif;
+}
+
+.footer3{
+    font-size: 14px;
+    font-family: inter, sans-serif;
+    font-weight: 400;
+    color: #64748B;
 }
