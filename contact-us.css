@@ -354,3 +354,49 @@ button {
     line-height: 20px;
 }
 
+/* main-map */
+.main-map{
+    background-color: #D2D9F4;
+}
+
+.main-map1{
+    background-image: url(images/contact-us-img/image2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    backdrop-filter: blur(6px);
+    height: 500px;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-map-box{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.main-map-icon{
+    border-radius: 50%;
+    height: 20px;
+    width: 12px;
+    padding: 10px 14px;
+    background-color: #003EC7;
+}
+
+.main-map-text{
+    font-size: 16px;
+    font-family: manrope, sans-serif;
+    font-weight: 650;
+    color: #131B2E;
+    line-height: 24px;
+    text-align: center;
+    padding-right: 16px;
+}
