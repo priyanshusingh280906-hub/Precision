@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* navbar */
@@ -10,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: clamp(20px, 2vw, 32px);
     box-sizing: border-box;
     background-color: #F8FAFCCC;
 }
@@ -25,7 +26,7 @@
 
 .nav-container2 {
     display: flex;
-    gap: 40px;
+    gap: clamp(24px, 2.5vw, 48px);
     justify-content: center;
     align-items: center;
     font-family: inter, sans-serif;
@@ -39,7 +40,7 @@
 }
 
 
-#opened-page{
+#opened-page {
     text-decoration: none;
     display: inline-block;
     padding-bottom: 2px;
@@ -51,7 +52,7 @@
 }
 
 .nav-button {
-    padding: 15px 25px;
+    padding: clamp(12px, 1vw, 16px) clamp(20px, 2vw, 28px);
     background: linear-gradient(to right, #003EC7, #0052FF);
     color: white;
     border: none;
@@ -66,18 +67,16 @@
 
 /* hero */
 
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding-left: 32px;
-    padding-top: 32px;
-    padding-bottom: 60px;
+    gap: clamp(12px, 2vw, 20px);
+    padding: clamp(20px, 4vw, 60px) clamp(16px, 5vw, 32px);
     max-width: 768px;
 }
 
-.hero-portfolio{
-    font-size: 12px;
+.hero-portfolio {
+    font-size: clamp(10px, 1.5vw, 12px);
     font-weight: 400;
     color: #005A3C;
     font-family: inter, sans-serif;
@@ -85,42 +84,41 @@
     line-height: 18px;
 }
 
-.hero-heading{
-    font-size: 72px;
+.hero-heading {
+    font-size: clamp(32px, 5vw, 72px);
     font-weight: 300;
     color: #131B2E;
     font-family: manrope, sans-serif;
     letter-spacing: -3.6px;
-    line-height: 82px;
+    line-height: 1.2;
     max-width: 600px;
 }
 
-.hero-heading  .authority{
+.hero-heading .authority {
     color: #003EC7;
     line-height: 100%;
 }
 
-.hero-description{
+.hero-description {
     padding-top: 16px;
-    font-size: 20px;
+    font-size: clamp(16px, 2vw, 20px);
     font-weight: 400;
     color: #434656;
     font-family: inter, sans-serif;
-    line-height: 32.5px;
+    line-height: 1.6;
 }
 
 /* pgp */
 
-.pgp{
+.pgp {
     display: grid;
-    row-gap: 96px;
-    column-gap: 48px;
+    gap: clamp(24px, 5vw, 96px);
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2, 1fr);
-    padding: 0px 32px;
+    padding: 0px clamp(16px, 5vw, 32px);
 }
 
-.pgp1{
+.pgp1 {
     grid-row: 1;
     grid-column: 1;
     display: flex;
@@ -129,38 +127,40 @@
 }
 
 .pgp-direct-img {
-    width: 645px;
-    height: 730px;   
-    object-fit: cover; 
-    object-position: center; 
+    width: 100%;
+    max-width: 645px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px;
 }
 
-.pgp-info{
+.pgp-info {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.pgp-heading{
+.pgp-heading {
     font-size: 11.2px;
     font-weight: 400;
     color: #737688;
     font-family: inter, sans-serif;
     letter-spacing: 1.12px;
-    line-height: 16.8px;
+    line-height: 1.2;
 }
 
-.pgp-main-heading{
-    font-size: 30px;
+.pgp-main-heading {
+    font-size: clamp(20px, 3vw, 30px);
     font-weight: 300;
     color: #131B2E;
     font-family: manrope, sans-serif;
     line-height: 30px;
 }
 
-.pgp-description{
-    font-size: 16px;
+.pgp-description {
+    font-size: clamp(14px, 2vw, 16px);
     font-weight: 300;
     color: #434656;
     font-family: inter, sans-serif;
@@ -168,16 +168,16 @@
     max-width: 364px;
 }
 
-.pgp2{
+.pgp2 {
     grid-row: 1;
     grid-column: 2;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 128px;
+    padding-top: clamp(40px, 6vw, 120px);
 }
 
-.pgp3{
+.pgp3 {
     grid-row: 3;
     grid-column: 1;
     display: flex;
@@ -185,54 +185,54 @@
     gap: 24px;
 }
 
-.pgp4{
+.pgp4 {
     grid-row: 3;
     grid-column: 2;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 128px;
+    padding-top: clamp(40px, 6vw, 120px);
 }
 
-.pgp-testimonial{
+.pgp-testimonial {
     display: flex;
-    gap: 48px;
-    padding: 96px 0px;
+    gap: clamp(20px, 5vw, 48px);
+    padding: clamp(40px, 8vw, 96px) 0;
     align-items: center;
     grid-row: 2;
     grid-column: 1 / span 2;
     max-width: 1024px;
 }
 
-.testimonial-img{
-    width: 96px;
+.testimonial-img {
+    width: clamp(60px, 7vw, 96px);
     border-radius: 12px;
 }
 
-.testimonial-subtopic1{
+.testimonial-subtopic1 {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding-bottom: 1px;
 }
 
-.testimonial-icon{
+.testimonial-icon {
     width: 34px;
 }
 
-.testimonial-blockquote{
-    font-size: 30px;
+.testimonial-blockquote {
+    font-size: clamp(14px, 2vw, 30px);
     font-weight: 500;
     color: #131B2E;
     font-family: manrope, sans-serif;
-    line-height: 36px;
+    line-height: 1.4;
 }
 
-.testimonial-info{
+.testimonial-info {
     padding-top: 8px;
 }
 
-.testimonial-info-name{
+.testimonial-info-name {
     font-size: 16px;
     font-weight: 300;
     color: #131B2E;
@@ -240,7 +240,7 @@
     line-height: 24px;
 }
 
-.testimonial-info-description{
+.testimonial-info-description {
     font-size: 16px;
     font-weight: 300;
     color: #434656;
@@ -251,35 +251,36 @@
 
 /* trust-section */
 
-.trust{
+.trust {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    padding: 96px 32px;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(32px, 6vw, 70px);
+    padding: clamp(60px, 8vw, 96px) clamp(16px, 5vw, 32px);
+    margin-top: clamp(80px, 10vw, 200px);
     background-color: #F2F3FF;
-    margin-top: 200px;
 }
 
-.trust1{
+.trust1 {
     grid-row: 1;
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 9;
     display: flex;
     flex-direction: column;
-    width: 90%;
-    gap: 24px;
+    gap: clamp(16px, 3vw, 24px);
+    max-width: 500px;
 }
 
-.trust1-sec1{
-    font-size: 36px;
+.trust1-sec1 {
+    font-size: clamp(24px, 3vw, 36px);
     font-weight: 300;
     color: #131B2E;
     font-family: manrope, sans-serif;
     letter-spacing: -0.9px;
-    line-height: 40px;
+    line-height: 1.2;
     width: 80%;
 }
 
-.trust1-sec2{
-    font-size: 16px;
+.trust1-sec2 {
+    font-size: clamp(14px, 2vw, 16px);
     font-weight: 300;
     color: #434656;
     font-family: inter, sans-serif;
@@ -287,35 +288,35 @@
     width: 90%;
 }
 
-.trust1-sec3{
+.trust1-sec3 {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    padding-top: 24px;
+    padding-top: 16px;
     width: 80%;
-    padding-left: 7.5px;
 }
 
-.trust1-sec3-box{
+.trust1-sec3-box {
     display: flex;
     gap: 16px;
 }
 
 
-.trust1-sec3-icon1{
-    width: 11px;
-    height: 18px;
+.trust1-sec3-icon1 {
+    width: auto;
+    max-height: 32px;
+    height: 100%;
     padding: 8px;
     border-radius: 4px;
     background-color: #0052FF33;
 }
 
-.trust1-sec3-info{
+.trust1-sec3-info {
     display: flex;
     flex-direction: column;
 }
 
-.trust1-sec3-heading{
+.trust1-sec3-heading {
     font-size: 16px;
     font-weight: 600;
     color: #131B2E;
@@ -323,7 +324,7 @@
     line-height: 24px;
 }
 
-.trust1-sec3-description{
+.trust1-sec3-description {
     font-size: 14px;
     font-weight: 300;
     color: #434656;
@@ -331,58 +332,52 @@
     line-height: 20px;
 }
 
-.trust1-sec3-icon2{
-    width: 22px;
-    height: 22px;
+.trust1-sec3-icon2 {
+    width: auto;
+    max-height: 32px;
+    height: 100%;
     padding: 8px;
     border-radius: 4px;
     background-color: #0052FF33;
+    object-fit: contain;
 }
 
-.trust2{
+.trust2 {
     grid-row: 1;
     grid-column: 6 / span 12;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: clamp(12px, 2vw, 20px);
 }
 
-.trust2-box1{
-    grid-row: 1;
-    grid-column: 1;
-    padding: 32px;
+.trust2-box1 {
+    padding: clamp(20px, 3vw, 32px);
     background-color: #FFFFFF;
     border-radius: 5px;
 }
 
-.trust2-box2{
-    grid-row: 1;
-    grid-column: 2;
+.trust2-box2 {
     margin-top: 32px;
-    padding: 32px;
+    padding: clamp(20px, 3vw, 32px);
     background-color: #FFFFFF;
     border-radius: 5px;
 }
 
-.trust2-box3{
-    grid-row: 2;
-    grid-column: 1;
-    padding: 32px;
+.trust2-box3 {
+    padding: clamp(20px, 3vw, 32px);
     background-color: #FFFFFF;
     border-radius: 5px;
 }
 
-.trust2-box4{
-    grid-row: 2;
-    grid-column: 2;
+.trust2-box4 {
     margin-top: 32px;
-    padding: 32px;
+    padding: clamp(20px, 3vw, 32px);
     background-color: #FFFFFF;
     border-radius: 5px;
 }
 
-.trust2-num{
+.trust2-num {
     font-size: 36px;
     font-weight: 300;
     color: #003EC7;
@@ -391,8 +386,8 @@
     padding-bottom: 2px;
 }
 
-.trust2-sen{
-     font-size: 14px;
+.trust2-sen {
+    font-size: 14px;
     font-weight: 300;
     color: #737688;
     font-family: inter, sans-serif;
@@ -401,98 +396,190 @@
 
 /* cta */
 
-.cta{
+.cta {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    padding: 0px 32px;
+    gap: clamp(20px, 4vw, 32px);
+    padding: clamp(40px, 8vw, 100px) clamp(16px, 5vw, 32px);
     align-items: center;
-    margin: 200px 0px;
+    margin: clamp(40px, 14vw, 200px);
 }
 
-.cta-heading{
-    font-size: 60px;
+.cta-heading {
+    font-size: clamp(28px, 5vw, 60px);
+    max-width: 740px;
     font-weight: 600;
     color: #131B2E;
     font-family: manrope, sans-serif;
-    line-height: 60px;
-    width: 60%;
+    line-height: 1.2;
     text-align: center;
 }
 
-.digital-marketing{
+.digital-marketing {
     color: #003EC7;
 }
 
-.cta-button{
+.cta-button {
     display: flex;
-    gap: 24px;
+    gap: clamp(12px, 3vw, 24px);
+    flex-wrap: wrap;
 }
 
-.cta-button1{
-    font-size: 18px;
+.cta-button1 {
+    font-size: clamp(14px, 2vw, 18px);
+    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 40px);
     font-weight: 500;
-    padding: 15px 40px;
     color: #ffffff;
     font-family: manrope, sans-serif;
     line-height: 28px;
     background: linear-gradient(to right, #003EC7, #0052FF);
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
-.cta-button2{
-    font-size: 18px;
+.cta-button2 {
+    font-size: clamp(14px, 2vw, 18px);
+    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 40px);
     font-weight: 500;
-    padding: 15px 40px;
     color: #003EC7;
     font-family: manrope, sans-serif;
     line-height: 28px;
     background-color: #E2E7FF;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
-.cta-button2 > a{
+.cta-button2>a {
     text-decoration: none;
     cursor: pointer;
+    color: inherit;
 }
 
 /* footer */
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
-    padding: 48px 32px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(16px, 4vw, 32px);
+    padding: clamp(24px, 6vw, 48px) clamp(16px, 5vw, 32px);
 }
 
-.footer1{
-    font-size: 18px;
+.footer1 {
+    font-size: clamp(16px, 2vw, 18px);
     font-family: manrope, sans-serif;
     font-weight: 900;
     color: #0F172A;
 }
 
-.footer2{
+.footer2 {
     display: flex;
     flex-direction: row;
-    gap: 34px;
+    gap: clamp(16px, 3vw, 34px);
+    flex-wrap: wrap;
 }
 
-.footer2 > a{
+.footer2>a {
     text-decoration: none;
     cursor: pointer;
     color: #64748B;
-    font-size: 18px;
+    font-size: clamp(14px, 2vw, 18px);
     font-weight: 400px;
     font-family: inter, sans-serif;
 }
 
-.footer3{
+.footer3 {
     font-size: 14px;
     font-family: inter, sans-serif;
     font-weight: 400;
     color: #64748B;
 }
 
-#footer-opened-page{
+#footer-opened-page {
     color: #2563EB
-    
+}
+
+@media (max-width: 768px) {
+
+    .topnavbar {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .nav-container2 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-button {
+        width: 40%;
+        text-align: center;
+    }
+
+    .hero {
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-heading {
+        letter-spacing: -0.8px;
+    }
+
+    .pgp2,
+    .pgp4 {
+        margin-top: 0;
+    }
+
+    .pgp-testimonial {
+        /* flex-direction: column; */
+    }
+
+    .testimonial-info {
+        padding-top: 0px;
+    }
+
+    .trust {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .trust1 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .trust2 {
+        grid-template-columns: 1fr;
+        grid-row: 2;
+        align-items: start;
+    }
+
+    .trust2-box2,
+    .trust2-box4 {
+        margin-top: 0px;
+    }
+
+    .cta-heading {
+        letter-spacing: -1px;
+    }
+
+    .cta-button {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-button1,
+    .cta-button2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer2 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
 }
