@@ -305,6 +305,9 @@
 .trust1-sec3-icon1{
     width: 11px;
     height: 18px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #0052FF33;
 }
 
 .trust1-sec3-info{
@@ -331,6 +334,9 @@
 .trust1-sec3-icon2{
     width: 22px;
     height: 22px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #0052FF33;
 }
 
 .trust2{

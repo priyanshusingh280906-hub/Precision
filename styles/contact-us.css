@@ -183,7 +183,8 @@ textarea {
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 16px;
-    color: #73768880;
+    font-weight: 350;
+    color: #434656;
     font-family: inter, sans-serif;
     opacity: 1.5;
     border: 2px solid black;
@@ -312,7 +313,7 @@ button {
 }
 
 .abs-contact2{
-    background-image: url(images/contact-us-img/image1.png);
+    background-image: url(../images/contact-us-img/image1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -362,7 +363,7 @@ button {
 }
 
 .main-map1{
-    background-image: url(images/contact-us-img/image2.png);
+    background-image: url(../images/contact-us-img/image2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
