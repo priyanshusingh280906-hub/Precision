@@ -510,7 +510,7 @@
     }
 
     .nav-button {
-        width: 40%;
+        width: 45%;
         text-align: center;
     }
 
@@ -537,12 +537,13 @@
     }
 
     .trust {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .trust1 {
         align-items: center;
+        text-align: center;
         width: 100%;
     }
 
